@@ -133,6 +133,8 @@ h2 {
     background-color: var(--color-cream);
 }
 
+/* transition with button hover */
+
 button {
     font-size: 2.4rem;
     text-align: center;
@@ -143,6 +145,7 @@ button {
     box-shadow: 0 0.5rem var(--color-white), 0 1rem 0.5rem -0.3rem rgba(0, 0, 0, 0.4);
     font-weight: bold;
     font-family: var(--font-style-lexend-peta);
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
